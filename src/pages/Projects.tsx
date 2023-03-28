@@ -109,7 +109,7 @@ export const Projects = () => {
 
     return (
         <div id='projects' className="w-screen bg-black text-stone-200 flex flex-col gap-10 p-20 tablet:p-14">
-            <div className="flex-2 flex flex-col gap-5 mobileGG:gap-2">
+            <div className="flex-2 flex flex-col gap-2 mobileGG:gap-2">
                 <div className="flex justify-center">
                     <h2 className="font-bold font-montserrat text-4xl mobileGG:text-3xl mobileG:text-2xl text-white">Projetos</h2>
                 </div>
@@ -135,8 +135,8 @@ export const Projects = () => {
                 </p>
             </div>
             <div className="flex-1">
-                <ArrowLeftCircleIcon className="w-10 mobileGG:w-8 absolute mt-[13vw] tablet:mt-[22vw] mobileGG:mt-[24vw] left-10 tablet:left-1 mobileGG:left-4 cursor-pointer z-50 hover:opacity-70 active:scale-90 transitions" onClick={handlerLeft} />
-                <ArrowRightCircleIcon className="w-10 mobileGG:w-8 absolute mt-[13vw] tablet:mt-[22vw] mobileGG:mt-[24vw] right-10 tablet:right-1 mobileGG:right-4 cursor-pointer z-50 hover:opacity-70 active:scale-90 transitions" onClick={handlerRight}/>
+                <ArrowLeftCircleIcon className="w-10 mobileGG:w-8 absolute mt-[13vw] tablet:mt-[22vw] tablet:rotate-90 mobileGG:mt-[24vw] left-10 tablet:left-1 mobileGG:left-4 cursor-pointer z-50 hover:opacity-70 active:scale-90 transitions" onClick={handlerLeft} />
+                <ArrowRightCircleIcon className="w-10 mobileGG:w-8 absolute mt-[13vw] tablet:mt-[22vw] tablet:rotate-90 mobileGG:mt-[24vw] right-10 tablet:right-1 mobileGG:right-4 cursor-pointer z-50 hover:opacity-70 active:scale-90 transitions" onClick={handlerRight}/>
                 <section id="slider" className="z-40">
                     <input type="radio" name="slider" id="s1" checked={s1 ? true : false} readOnly/>
                         <input type="radio" name="slider" id="s2" checked={s2 ? true : false} readOnly/>
@@ -179,7 +179,7 @@ export const Projects = () => {
                     </label>
                 </section>
             </div>
-            <div className="h-[180px] flex items-end justify-center mobileGG:mt-[-80px] mobileG:mt-[-100px] mobileM:mt-[-130px]">
+            <div className="h-[180px] flex items-end justify-center mobileGG:mt-[-100px] mobileG:mt-[-120px] mobileM:mt-[-140px]">
                 <p className="font-montserrat text-center mobileGG:text-sm font-thin text-stone-200">Acesse aqui meu <a href="https://github.com/LeandroTRibeiro" target={'_blank'} className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 w-fit font-semibold hover:opacity-70">GitHub</a> e confira mais.</p>
             </div>
         </div>
