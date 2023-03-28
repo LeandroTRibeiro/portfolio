@@ -15,7 +15,7 @@ export const Technologies = () => {
                 data-aos-mirror="true"
                 data-aos-once="false"
             >
-                <img src={tecnologies} alt="logo tecnologiras" className="min-w-[450px] max-w-[500px] laptop:opacity-40 tablet:opacity-20"/>
+                <img src={tecnologies} alt="logo tecnologiras" className="min-w-[450px] max-w-[500px] laptop:opacity-40"/>
             </div>
             <div 
                 className="flex-1 flex flex-col justify-center gap-5"
@@ -36,7 +36,7 @@ export const Technologies = () => {
                 Atravéz de meus conhecimentos posso construir estruturas bem organizadas e acessíveis, de fácil navegação, usando a <em>semântica</em> de forma eficaz, para melhorar o desempenho do site e a otimização do mecanismo de pesquisa.
                 Meus conhecimentos de <em>CSS</em> e seus frameworks, me permitem a produção optimizada de aplicações responsivas, personalizadas e com vida.
                 Ultilizando JavaSript e consumindo bibliotecas e estruturas populares como <em>React</em> e fazendo requicições ao backend, posso desenvolver aplicações complexas.
-                Além de minhas habilidades de frontend, tenho familiaridade com <em>Node.js</em>, usando <em>Express.js</em> para gerenciar rotas e middlewares fazendo interação de forma simples e ágil a banco de dados SQL e no-SQL usando ORM's posso criar <em>WebServices</em> e <em>API's RESTFUL.</em></p>
+                Além de minhas habilidades de frontend, tenho familiaridade com <em>Node.js</em>, usando <em>Express.js</em> para gerenciar rotas e middlewares, fazendo interação de forma simples e ágil a banco de dados SQL e no-SQL usando ORM's, posso assim criar <em>WebServices</em> e <em>API's RESTFUL.</em></p>
             </div>
         </div>
     );
