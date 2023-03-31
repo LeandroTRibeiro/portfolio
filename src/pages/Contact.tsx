@@ -36,9 +36,9 @@ export const Contact = () => {
                             leandrothiago_ribeiro@hotmail.com
                         </a>
                         <div className="flex gap-5">
-                            <a href="https://www.instagram.com/dymyyy/" target={"_blank"} className="flex justify-center items-center"><img src={instagran} alt="instagran icon" className="w-7"/></a>
-                            <a href="https://www.linkedin.com/in/ribeiro-leandro/" target={"_blank"} className="flex justify-center items-center"><img src={linkedin} alt="linkedIn icon" className="w-7"/></a>
-                            <a href="https://github.com/LeandroTRibeiro" target={"_blank"} className="flex justify-center items-center"><img src={github} alt="GitHub icon" className="w-7"/></a>
+                            <a href="https://www.instagram.com/dymyyy/" target={"_blank"} className="flex justify-center items-center"><img src={instagran} alt="instagran icon" className="w-7" width={24} height={24}/></a>
+                            <a href="https://www.linkedin.com/in/ribeiro-leandro/" target={"_blank"} className="flex justify-center items-center"><img src={linkedin} alt="linkedIn icon" className="w-7" width={24} height={24}/></a>
+                            <a href="https://github.com/LeandroTRibeiro" target={"_blank"} className="flex justify-center items-center"><img src={github} alt="GitHub icon" className="w-7" width={41} height={45}/></a>
                         </div>
                     </div>
                 </div>

@@ -1,7 +1,6 @@
 import { Footer } from "../components/Footer";
 import { Menu } from "../components/Menu";
-
-import laptop from '../assets/images/laptopmuckup.png';
+<em></em>
 import devshope from '../assets/gifs/devshope.gif';
 
 import { CheckIcon } from "@heroicons/react/24/outline";
@@ -48,7 +47,7 @@ export const DevShope = () => {
                                 data-aos-easing="ease-in-out"
                                 data-aos-once="true"
                             >
-                                Este é o projeto em que estou trabalhando, utilizo várias tecnologias para desenvolve-lo, tais como: TypeScript, React, Axios, Js Cookie, React Redux, React Router DOM, TailwindCSS,  Node, Express, Express validator, JsonWebToken, Mongoose, MongoDB, Correios Brasil, Multer, Sharp, Cloudinary, SendGrid, .env, Jest, entre outras. Poderia iniciar o projeto com muitas funcionalidades já prontas, porém, o propósito deste é estimular e desenvolver minhas atuais habilidades, sendo assim, todas as aplicações até aqui otimizadas foram elaboradas por mim. Pretendo ampliar as funcionalidades do site, bem como aprontar um Dashboard personalizado.
+                                Este é o projeto em que estou trabalhando, utilizo várias tecnologias para desenvolve-lo, tais como: <em>TypeScript</em>, <em>React</em>, <em>Axios</em>, <em>Js</em> <em>Cookie</em>, <em>React</em> <em>Redux</em>, <em>React</em> <em>Router</em> <em>DOM</em>, <em>TailwindCSS</em>,  <em>Node</em>, <em>Express</em>, <em>Express</em> <em>validator</em>, <em>JsonWebToken</em>, <em>Mongoose</em>, <em>MongoDB</em>, <em>Correios</em> <em>Brasil</em>, <em>Multer</em>, <em>Sharp</em>, <em>Cloudinary</em>, <em>SendGrid</em>, <em>dotenv</em>, <em>Jest</em>, entre outras. Poderia iniciar o projeto com muitas funcionalidades já prontas, porém, o propósito deste é estimular e desenvolver minhas atuais habilidades, sendo assim, todas as aplicações até aqui otimizadas foram elaboradas por mim. Pretendo ampliar as funcionalidades do site, bem como aprontar um Dashboard personalizado.
                             </p>
                                 <div>
                                     <h3 
@@ -92,7 +91,7 @@ export const DevShope = () => {
                                 data-aos-easing="ease-in-out"
                                 data-aos-once="true"
                             >
-                                <img src={git} className="w-5"/>
+                                <img src={git} className="w-5" width={41} height={45}/>
                                 acessar seu repositório frontend
                             </a>
                             <a 
@@ -106,7 +105,7 @@ export const DevShope = () => {
                                 data-aos-easing="ease-in-out"
                                 data-aos-once="true"
                             >
-                                <img src={git} className="w-5"/>
+                                <img src={git} className="w-5" width={41} height={45}/>
                                 acessar seu repositório backend
                             </a>
                         </div>
@@ -117,9 +116,13 @@ export const DevShope = () => {
                 >
                     <div className="flex justify-center items-center">
                         
-                        <img src={devshope} alt="devshope gif" className="w-[350px] min-w-[350px] mobileGG:w-[290px] mobileG:w-[220px] mobileGG:min-w-[290px] mobileG:min-w-[220px] rounded"/>
+                        <img src={devshope} alt="devshope gif" className="w-[350px] min-w-[350px] mobileGG:w-[290px] mobileG:w-[220px] mobileGG:min-w-[290px] mobileG:min-w-[220px] rounded" width={690} height={388}/>
 
-                        <img src={laptop} alt="laptop muckup" className="w-[450px] mobileGG:w-[370px] mobileG:w-[300px] min-w-[450px] mobileGG:min-w-[370px] mobileG:min-w-[300px] drop-shadow-[0_0_10px_rgba(250,250,250,0.1)] absolute"/>
+                        <picture className="w-[450px] mobileGG:w-[370px] mobileG:w-[300px] min-w-[450px] mobileGG:min-w-[370px] mobileG:min-w-[300px] drop-shadow-[0_0_10px_rgba(250,250,250,0.1)] absolute">
+                            <source srcSet="https://cdn.filestackcontent.com/resize=width:300/zTliI3AZT8C8A1THQBII" media="(max-width: 425px)"/>
+                            <source srcSet="https://cdn.filestackcontent.com/resize=width:370/zTliI3AZT8C8A1THQBII" media='(max-width: 535px)'/>
+                            <img src="https://cdn.filestackcontent.com/resize=width:450/zTliI3AZT8C8A1THQBII" alt="laptop muckup" width={1920} height={1188}/>
+                        </picture>
                     </div>
                 </div>
             </div>

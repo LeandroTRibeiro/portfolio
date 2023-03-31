@@ -1,5 +1,3 @@
-import tecnologies from '../assets/images/JS5.png';
-
 export const Technologies = () => {
 
     return (
@@ -14,7 +12,7 @@ export const Technologies = () => {
                 data-aos-mirror="true"
                 data-aos-once="false"
             >
-                <img src={tecnologies} alt="logo tecnologiras" className="min-w-[450px] max-w-[500px] laptop:opacity-40"/>
+                <img src="https://cdn.filestackcontent.com/resize=width:500/jUid2ZOKQFuLrKfmXE2A" alt="logo tecnologiras" className="min-w-[450px] max-w-[500px] laptop:opacity-40" width={2344} height={2345}/>
             </div>
             <div 
                 className="flex-1 flex flex-col justify-center gap-5"
@@ -34,8 +32,8 @@ export const Technologies = () => {
                 <p className="font-thin text-stone-200 text-justify w-[100%] laptop:w-[60%] tablet:w-full mobileGG:text-sm">
                 Através de meus conhecimentos posso construir estruturas bem organizadas, acessíveis e de fácil navegação, usando a <em>semântica</em> de forma eficaz para melhorar o desempenho do site e a otimização do mecanismo de pesquisa.
                 Meus conhecimentos de <em>CSS</em> e seus frameworks, me permitem a produção otimizada de aplicações responsivas, personalizadas e com vida.
-                Ultilizando JavaSript e consumindo bibliotecas e estruturas populares como <em>React</em> e fazendo requisições ao backend, posso desenvolver aplicações complexas.
-                Além de minhas habilidades de frontend, tenho familiaridade com <em>Node.js</em>, usando <em>Express.js</em> para gerenciar rotas e middlewares, manipulando de forma simples e ágil, bancos de dados SQL e no-SQL usando ORM's, posso assim criar <em>WebServices</em> e <em>API's RESTFUL.</em></p>
+                Utilizando <em>JavaScript</em> e consumindo bibliotecas e estruturas populares como <em>React</em> e fazendo requisições ao backend, posso desenvolver aplicações complexas.
+                Além de minhas habilidades de frontend, tenho familiaridade com <em>Node.js</em>, usando <em>Express.js</em> para gerenciar rotas e middlewares, manipulando de forma simples e ágil, bancos de dados <em>SQL</em> e <em>no-SQL</em> usando ORM's, posso assim criar <em>WebServices</em> e <em>API's RESTFUL.</em></p>
             </div>
         </div>
     );

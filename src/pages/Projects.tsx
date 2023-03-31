@@ -2,11 +2,6 @@ import { useState } from 'react';
 
 import { Link } from 'react-router-dom';
 
-import devtask from '../assets/images/devtask2.png';
-import devchat from '../assets/images/devchat.png';
-import gustavoborges from '../assets/images/gustavoborges.png';
-import calculadora from '../assets/images/calcu.png';
-import devshope from '../assets/images/devShope.png';
 import { ArrowLeftCircleIcon } from '@heroicons/react/24/outline';
 
 export const Projects = () => {
@@ -193,34 +188,69 @@ export const Projects = () => {
                             <div className='font-montserrat'>Conheça mais sobre este <Link to="/projects/devtask" className="px-5 py-2 rounded bg-[#570DF8] hover:bg-[#247cff] transitions hover:opacity-70 active:scale-90">Projeto!</Link></div>
                             <div><a href="https://dev-tasks.netlify.app/" target={'_blank'} className="px-5 py-2 rounded bg-[#570DF8] hover:bg-[#247cff] transitions hover:opacity-90 active:scale-90">Navegue</a> por este site!</div>
                         </div>
-                        <img src={devtask} alt="site devTask" height="100%" width="100%" className={`${s3 || s4 ? 'imgDown' : 'imgUp'} ${enlargeSlide ? 'enlarge' : ''} transitions`}/>
+                        <picture className={`${s3 || s4 ? 'imgDown' : 'imgUp'} ${enlargeSlide ? 'enlarge' : ''} transitions`}>
+                            <source srcSet='https://cdn.filestackcontent.com/resize=width:208/kibbFSsKTJGXYk31vT7a' media='(max-width: 320px)'/>
+                            <source srcSet='https://cdn.filestackcontent.com/resize=width:263/kibbFSsKTJGXYk31vT7a' media='(max-width: 375px)'/>
+                            <source srcSet='https://cdn.filestackcontent.com/resize=width:318/kibbFSsKTJGXYk31vT7a' media='(max-width: 425px)'/>
+                            <source srcSet='https://cdn.filestackcontent.com/resize=width:656/kibbFSsKTJGXYk31vT7a' media='(max-width: 768px)'/>
+                            <source srcSet='https://cdn.filestackcontent.com/resize=width:518/kibbFSsKTJGXYk31vT7a' media='(max-width: 1024px)'/>
+                            <img src="https://cdn.filestackcontent.com/resize=width:768/kibbFSsKTJGXYk31vT7a" alt="site devTask" height="100%" width="100%" />
+                        </picture>
                     </label>
                     <label id="slide2" onClick={handlerS2} className={`${s2 ? '' : 'cursor-pointer'}`}>
                         <div className={`w-full h-full transitions tablet:hidden ${s2 ? 'opacity-0 hover:opacity-100 absolute flex flex-col justify-center items-center gap-5 text-black backdrop-blur-sm bg-white/20 w-full h-full' : "hidden"}`}>
                             <div className="font-montserrat">Conheça mais sobre este <Link to="/projects/devchat" className="px-5 py-2 rounded bg-[#570DF8] hover:bg-[#247cff] transitions hover:opacity-70 active:scale-90">Projeto!</Link></div>
                             <div><a href="https://devlivechat.netlify.app/" target={'_blank'} className="px-5 py-2 rounded bg-[#570DF8] hover:bg-[#247cff] transitions hover:opacity-90 active:scale-90">Navegue</a> por este site!</div>
                         </div>
-                        <img src={devchat} alt="site devTask" height={"100%"} width="100%" className={`${s4 || s5 ? 'imgDown' : 'imgUp'} ${enlargeSlide ? 'enlarge' : ''} transitions`}/>
+                        <picture className={`${s4 || s5 ? 'imgDown' : 'imgUp'} ${enlargeSlide ? 'enlarge' : ''} transitions`}>
+                            <source srcSet='https://cdn.filestackcontent.com/resize=width:208/sTFInMfyS3OBxeHs8fNl' media='(max-width: 320px)'/>
+                            <source srcSet='https://cdn.filestackcontent.com/resize=width:263/sTFInMfyS3OBxeHs8fNl' media='(max-width: 375px)'/>
+                            <source srcSet='https://cdn.filestackcontent.com/resize=width:318/sTFInMfyS3OBxeHs8fNl' media='(max-width: 425px)'/>
+                            <source srcSet='https://cdn.filestackcontent.com/resize=width:656/sTFInMfyS3OBxeHs8fNl' media='(max-width: 768px)'/>
+                            <source srcSet='https://cdn.filestackcontent.com/resize=width:518/sTFInMfyS3OBxeHs8fNl' media='(max-width: 1024px)'/>
+                            <img src="https://cdn.filestackcontent.com/resize=width:768/sTFInMfyS3OBxeHs8fNl" alt="site devTask" height={"100%"} width="100%" />
+                        </picture>
                     </label>
                     <label id="slide3" onClick={handlerS3} className={`${s3 ? 'tablet:hover:cursor-pointer' : 'cursor-pointer'}`}>
                         <div className={`h-full w-full transitions tablet:hidden ${s3 ? 'opacity-0 hover:opacity-100 absolute flex flex-col justify-center items-center gap-5 text-black backdrop-blur-sm bg-white/20' : "hidden"}`}>
                             <div className="font-montserrat">Conheça mais sobre este <Link to="/projects/gustavofernandesborges" className="px-5 py-2 rounded bg-[#570DF8] hover:bg-[#247cff] transitions hover:opacity-70 active:scale-90">Projeto!</Link></div>
                             <div><a href="https://leandrotribeiro.github.io/Gustavo-Borges/src/index.html" target={'_blank'} className="px-5 py-2 rounded bg-[#570DF8] hover:bg-[#247cff] transitions hover:opacity-90 active:scale-90">Navegue</a> por este site!</div>
                         </div>
-                        <img src={gustavoborges} alt="site gustavo fernandes borges" height={"100%"} width="100%" className={`${s5 || s1 ? 'imgDown' : 'imgUp'} ${enlargeSlide ? 'enlarge' : ''} transitions`}/>
+                        <picture className={`${s5 || s1 ? 'imgDown' : 'imgUp'} ${enlargeSlide ? 'enlarge' : ''} transitions`}>
+                            <source srcSet='https://cdn.filestackcontent.com/resize=width:208/TwkI9y6dSy6A1taqkjOP' media='(max-width: 320px)'/>
+                            <source srcSet='https://cdn.filestackcontent.com/resize=width:263/TwkI9y6dSy6A1taqkjOP' media='(max-width: 375px)'/>
+                            <source srcSet='https://cdn.filestackcontent.com/resize=width:313/TwkI9y6dSy6A1taqkjOP' media='(max-width: 425px)'/>
+                            <source srcSet='https://cdn.filestackcontent.com/resize=width:656/TwkI9y6dSy6A1taqkjOP' media='(max-width: 768px)'/>
+                            <source srcSet='https://cdn.filestackcontent.com/resize=width:518/TwkI9y6dSy6A1taqkjOP' media='(max-width: 1024px)'/>
+                            <img src="https://cdn.filestackcontent.com/resize=width:768/TwkI9y6dSy6A1taqkjOP" alt="site gustavo fernandes borges" height={"100%"} width="100%" />
+                        </picture>
                     </label>
                     <label id="slide4" onClick={handlerS4} className={`${s4 ? '' : 'cursor-pointer'}`}>
                         <div className={`transitions tablet:hidden ${s4 ? 'opacity-0 hover:opacity-100 absolute flex flex-col justify-center items-center gap-5 text-black backdrop-blur-sm bg-white/20 w-full h-full' : "hidden"}`}>
                             <div className="font-montserrat">Conheça mais sobre este <Link to="/projects/calculadora" className="px-5 py-2 rounded bg-[#570DF8] hover:bg-[#247cff] transitions hover:opacity-70 active:scale-90">Projeto!</Link></div>
                             <div><a href="https://leandrotribeiro.github.io/Calculadora/index.html" target={'_blank'} className="px-5 py-2 rounded bg-[#570DF8] hover:bg-[#247cff] transitions hover:opacity-90 active:scale-90">Navegue</a> por este site!</div>
                         </div>
-                        <img src={calculadora} alt="site devTask" height={"100%"} width="100%" className={`${s1 || s2 ? 'imgDown' : 'imgUp'} ${enlargeSlide ? 'enlarge' : ''} transitions`}/>
+                        <picture className={`${s1 || s2 ? 'imgDown' : 'imgUp'} ${enlargeSlide ? 'enlarge' : ''} transitions`}>
+                            <source srcSet='https://cdn.filestackcontent.com/resize=width:208/xoFbIRR5RuasnfXPpWU7' media='(max-width: 320px)'/>
+                            <source srcSet='https://cdn.filestackcontent.com/resize=width:263/xoFbIRR5RuasnfXPpWU7' media='(max-width: 375px)'/>
+                            <source srcSet='https://cdn.filestackcontent.com/resize=width:313/xoFbIRR5RuasnfXPpWU7' media='(max-width: 425px)'/>
+                            <source srcSet='https://cdn.filestackcontent.com/resize=width:656/xoFbIRR5RuasnfXPpWU7' media='(max-width: 768px)'/>
+                            <source srcSet='https://cdn.filestackcontent.com/resize=width:518/xoFbIRR5RuasnfXPpWU7' media='(max-width: 1024px)'/>
+                            <img src="https://cdn.filestackcontent.com/resize=width:768/xoFbIRR5RuasnfXPpWU7" alt="site devTask" height={"100%"} width="100%" />
+                        </picture>
                     </label>
                     <label id="slide5" onClick={handlerS5} className={`${s5 ? '' : 'cursor-pointer'}`}>
                         <div className={`transitions tablet:hidden ${s5 ? 'opacity-0 hover:opacity-100 absolute flex flex-col justify-center items-center gap-5 text-black backdrop-blur-sm bg-white/20 w-full h-full' : "hidden"}`}>
                             <div className="font-montserrat">Conheça mais sobre este <Link to="/projects/devshope" className="px-5 py-2 rounded bg-[#570DF8] hover:bg-[#247cff] transitions hover:opacity-70 active:scale-90">Projeto!</Link></div>
                         </div>
-                        <img src={devshope} alt="site devTask" height={"100%"} width="100%" className={`${s2 || s3 ? 'imgDown' : 'imgUp'} ${enlargeSlide ? 'enlarge' : ''} transitions`}/>
+                        <picture className={`${s2 || s3 ? 'imgDown' : 'imgUp'} ${enlargeSlide ? 'enlarge' : ''} transitions`}>
+                            <source srcSet='https://cdn.filestackcontent.com/resize=width:208/y4JkBEmqTQ63EjLP4doo' media='(max-width: 320px)'/>
+                            <source srcSet='https://cdn.filestackcontent.com/resize=width:263/y4JkBEmqTQ63EjLP4doo' media='(max-width: 375px)'/>
+                            <source srcSet='https://cdn.filestackcontent.com/resize=width:313/y4JkBEmqTQ63EjLP4doo' media='(max-width: 425px)'/>
+                            <source srcSet='https://cdn.filestackcontent.com/resize=width:656/y4JkBEmqTQ63EjLP4doo' media='(max-width: 768px)'/>
+                            <source srcSet='https://cdn.filestackcontent.com/resize=width:518/y4JkBEmqTQ63EjLP4doo' media='(max-width: 1024px)'/>
+                            <img src="https://cdn.filestackcontent.com/resize=width:768/y4JkBEmqTQ63EjLP4doo" alt="site devTask" height={"100%"} width="100%" />
+                        </picture>
                     </label>
                 </section>
             </div>
