@@ -7,7 +7,6 @@ import devtask from '../assets/gifs/devtask.gif';
 import { CheckIcon, GlobeAltIcon } from "@heroicons/react/24/outline";
 import git from '../assets/svgs/gitIconBlack.svg';
 
-
 export const DevTask = () => {
 
     return (
@@ -83,7 +82,7 @@ export const DevTask = () => {
                                     </ul>
                                 </div>
                             <a 
-                                href="https://leandrotribeiro.github.io/Calculadora/index.html" 
+                                href="https://dev-tasks.netlify.app/" 
                                 target={"_blank"} 
                                 className="flex justify-start items-center gap-2 p-2 bg-stone-200 text-black rounded w-[350px] mobileGG:w-[250px] mobileG:w-full mobileGG:text-sm"
                                 data-aos="fade-right"
@@ -97,7 +96,7 @@ export const DevTask = () => {
                                 acessar o site
                             </a>
                             <a 
-                                href="https://github.com/LeandroTRibeiro/Calculadora" 
+                                href="https://github.com/LeandroTRibeiro/tasklist-app" 
                                 target={"_blank"} 
                                 className="flex justify-start items-center gap-2 p-2 bg-stone-200 text-black rounded w-[350px] mobileGG:w-[250px] mobileG:w-full mobileGG:text-sm"
                                 data-aos="fade-right"
@@ -111,7 +110,7 @@ export const DevTask = () => {
                                 acessar seu repositório frontend
                             </a>
                             <a 
-                                href="https://github.com/LeandroTRibeiro/Calculadora" 
+                                href="https://github.com/LeandroTRibeiro/api-tasklist" 
                                 target={"_blank"} 
                                 className="flex justify-start items-center gap-2 p-2 bg-stone-200 text-black rounded w-[350px] mobileGG:w-[250px] mobileG:w-full mobileGG:text-sm"
                                 data-aos="fade-right"

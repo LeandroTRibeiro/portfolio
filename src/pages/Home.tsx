@@ -1,5 +1,3 @@
-import { useState, useEffect, useRef } from 'react';
-
 import { Footer } from '../components/Footer';
 import { Menu } from '../components/Menu';
 import { Slides } from '../components/Slides';

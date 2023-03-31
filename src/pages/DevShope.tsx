@@ -4,7 +4,7 @@ import { Menu } from "../components/Menu";
 import laptop from '../assets/images/laptopmuckup.png';
 import devshope from '../assets/gifs/devshope.gif';
 
-import { CheckIcon, GlobeAltIcon } from "@heroicons/react/24/outline";
+import { CheckIcon } from "@heroicons/react/24/outline";
 import git from '../assets/svgs/gitIconBlack.svg';
 
 export const DevShope = () => {
@@ -82,7 +82,7 @@ export const DevShope = () => {
                                     </ul>
                                 </div>
                             <a 
-                                href="https://github.com/LeandroTRibeiro/Calculadora" 
+                                href="https://github.com/LeandroTRibeiro/devShope-app" 
                                 target={"_blank"} 
                                 className="flex justify-start items-center gap-2 p-2 bg-stone-200 text-black rounded w-[350px] mobileGG:w-[250px] mobileG:w-full mobileGG:text-sm"
                                 data-aos="fade-right"
@@ -96,7 +96,7 @@ export const DevShope = () => {
                                 acessar seu repositório frontend
                             </a>
                             <a 
-                                href="https://github.com/LeandroTRibeiro/Calculadora" 
+                                href="https://github.com/LeandroTRibeiro/devShope-api" 
                                 target={"_blank"} 
                                 className="flex justify-start items-center gap-2 p-2 bg-stone-200 text-black rounded w-[350px] mobileGG:w-[250px] mobileG:w-full mobileGG:text-sm"
                                 data-aos="fade-right"
