@@ -1,5 +1,3 @@
-import about from '../assets/images/aboutR.png';
-
 import { ArrowDownIcon } from '@heroicons/react/24/outline';
 
 export const About = () => {
@@ -27,7 +25,7 @@ export const About = () => {
                     </h2>
                 </div>
                 <p className="font-light text-stone-200 mobileGG:text-sm text-justify">
-                    Como desenvolvedor front-end tenho conhecimentos de <em>HTML</em>, <em>CSS</em> e <em>JavaScript</em>. Me permitindo criar sites visualmente impressionantes e altamente funcionais. Entendo a importância do design <em>responsivo</em>. Possuo prática com a biblioteca <em>React</em>, e suas boas práticas que me permitem desenvolver UI's dinâmicas e interativas. Estou sempre aberto a feedback e disposto a trabalhar com outras pessoas para superar quaisquer desafios que possam surgir.
+                    Como desenvolvedor frontend tenho conhecimentos de <em>HTML</em>, <em>CSS</em> e <em>JavaScript</em>. Me permitindo criar sites visualmente impressionantes e altamente funcionais. Entendo a importância do design <em>responsivo</em>. Possuo prática com a biblioteca <em>React</em>, e suas boas práticas que me permitem desenvolver UI's dinâmicas e interativas. Estou sempre aberto a feedback e disposto a trabalhar com outras pessoas para superar quaisquer desafios que possam surgir.
                 </p>
                 <a href="https://wa.me/5548996312210?text=Olá+consegui+seu+contato+atravéz+de+seu+site!" target="_blank" className=''>
                     <button className="bg-gradient-to-tr from-indigo-900 via-purple-500 to-pink-500 transitions w-[200px] mobileGG:w-[150px] py-3 rounded font-semibold text-black justify-center items-center hover:opacity-40 active:opacity-100">
@@ -41,7 +39,11 @@ export const About = () => {
                 </div>
             </div>
             <div className="flex-1 flex justify-center items-center">
-                <img src={about} alt="man with laptop" className="transitions pulse-img min-w-[450px] mobileG:min-w-[300px] max-w-[500px]"/>
+                <picture className="transitions pulse-img min-w-[450px] mobileG:min-w-[300px] max-w-[500px]">
+                    <source srcSet='https://cdn.filestackcontent.com/resize=width:300/DUc2kUvWTTWZqP5QxyCg' media='(max-width: 300px)' />
+                    <source srcSet='https://cdn.filestackcontent.com/resize=width:450/DUc2kUvWTTWZqP5QxyCg' media='(max-width: 530px)' />
+                    <img src="https://cdn.filestackcontent.com/resize=width:500/DUc2kUvWTTWZqP5QxyCg" alt="robot with laptop" width={1024} height={1024}/>
+                </picture>
             </div>
         </div>
     );

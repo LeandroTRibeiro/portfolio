@@ -1,7 +1,6 @@
 import { Footer } from "../components/Footer";
 import { Menu } from "../components/Menu";
 
-import cell from '../assets/images/phonemuckup.png';
 import devchat from '../assets/gifs/devchat.gif';
 
 import { CheckIcon, GlobeAltIcon } from "@heroicons/react/24/outline";
@@ -48,7 +47,7 @@ export const DevChat = () => {
                                 data-aos-easing="ease-in-out"
                                 data-aos-once="true"
                             >
-                                Este projeto foi totalmente desenvolvido em <em>TypeScript</em> e separado em duas etapas, backend e frontend, o objetivo foi fazer uma aplicação que tivesse todo um sistema de registro, autorização e autenticação, além de todas funcionalidades de um live chat, para isso foi ultilizado no projeto <em>React</em>, <em>Axios</em>, <em>React Router DOM</em>, <em>React Redux</em>, <em>Js Cookie</em>, <em>React Image Crop</em>, <em>Socket.IO</em>, <em>TailwindCSS</em>, <em>Node</em>, <em>Express</em>, <em>Mongoose</em>, <em>MongoDB</em>, <em>SendGrid</em>, <em>Cloudinary</em>, <em>JsonWebToken</em>, <em>Multer</em>, <em>Sharp</em>, <em>.env</em>, este projeto ainda necessita de alguns ajustes e ainda estou fazendo toda a parte de testes, usando <em>Jest</em>. 
+                                Este projeto foi totalmente desenvolvido em <em>TypeScript</em> e separado em duas etapas, backend e frontend, o objetivo foi fazer uma aplicação que tivesse todo um sistema de registro, autorização e autenticação, além de todas funcionalidades de um live chat, para isso foi ultilizado no projeto <em>React</em>, <em>Axios</em>, <em>React Router DOM</em>, <em>React Redux</em>, <em>Js Cookie</em>, <em>React Image Crop</em>, <em>Socket.IO</em>, <em>TailwindCSS</em>, <em>Node</em>, <em>Express</em>, <em>Mongoose</em>, <em>MongoDB</em>, <em>SendGrid</em>, <em>Cloudinary</em>, <em>JsonWebToken</em>, <em>Multer</em>, <em>Sharp</em>, <em>dotenv</em>, este projeto ainda necessita de alguns ajustes e ainda estou fazendo toda a parte de testes, usando <em>Jest</em>. 
                             </p>
                                 <div>
                                     <h3 
@@ -106,7 +105,7 @@ export const DevChat = () => {
                                 data-aos-easing="ease-in-out"
                                 data-aos-once="true"
                             >
-                                <img src={git} className="w-5"/>
+                                <img src={git} className="w-5" width={41} height={45}/>
                                 acessar seu repositório frontend
                             </a>
                             <a 
@@ -120,7 +119,7 @@ export const DevChat = () => {
                                 data-aos-easing="ease-in-out"
                                 data-aos-once="true"
                             >
-                                <img src={git} className="w-5"/>
+                                <img src={git} className="w-5" width={41} height={45}/>
                                 acessar seu repositório backend
                             </a>
                         </div>
@@ -130,8 +129,8 @@ export const DevChat = () => {
                     className="flex justify-center items-start fade3 tablet:mt-14"
                 >
                     <div className="flex justify-center items-center">
-                        <img src={devchat} alt="calculator gif" className="h-[440px] min-w-max rounded"/>
-                        <img src={cell} alt="phone muckup" className="h-[500px] min-w-max drop-shadow-[0_0_10px_rgba(250,250,250,0.1)] absolute"/>
+                        <img src={devchat} alt="calculator gif" className="h-[440px] min-w-max rounded" width={348} height={772}/>
+                        <img src="https://cdn.filestackcontent.com/resize=width:330/3fzDvFoQRequZcOOfYlw" alt="phone muckup" className="h-[500px] min-w-max drop-shadow-[0_0_10px_rgba(250,250,250,0.1)] absolute" width={1076} height={1628}/>
                     </div>
                 </div>
             </div>

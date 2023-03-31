@@ -1,7 +1,6 @@
 import { Footer } from "../components/Footer";
 import { Menu } from "../components/Menu";
 
-import cell from '../assets/images/phonemuckup.png';
 import devtask from '../assets/gifs/devtask.gif';
 
 import { CheckIcon, GlobeAltIcon } from "@heroicons/react/24/outline";
@@ -49,7 +48,7 @@ export const DevTask = () => {
                                 data-aos-easing="ease-in-out"
                                 data-aos-once="true"
                             >
-                                Este é um projeto desenvolvido em TypeScript e composto em duas etapas, backend e frontend. Concluído com o intuito de exercer uma aplicação contando com todas as funcionalidades de um CRUD. Para o backend, criei uma API usando Node juntamente com o Express, fazendo interação do banco de dados MongoDB com o ORM Mongoose. O frontend foi elaborado utilizando a biblioteca React, React Redux, React Router DOM e Axios para o consumo da API. A estilização do projeto foi executada com TailwindCSS.
+                                Este é um projeto desenvolvido em <em>TypeScript</em> e composto em duas etapas, backend e frontend. Concluído com o intuito de exercer uma aplicação contando com todas as funcionalidades de um CRUD. Para o backend, criei uma <em>API</em> usando <em>Node</em> juntamente com o <em>Express</em>, fazendo interação do banco de dados <em>MongoDB</em> com o ORM <em>Mongoose</em>. O frontend foi elaborado utilizando a biblioteca <em>React</em>, <em>React</em> <em>Redux</em>, <em>React</em> <em>Router</em> <em>DOM</em> e <em>Axios</em> para o consumo da <em>API</em>. A estilização do projeto foi executada com <em>TailwindCSS</em>.
                             </p>
                                 <div>
                                     <h3 
@@ -106,7 +105,7 @@ export const DevTask = () => {
                                 data-aos-easing="ease-in-out"
                                 data-aos-once="true"
                             >
-                                <img src={git} className="w-5"/>
+                                <img src={git} className="w-5" width={41} height={45}/>
                                 acessar seu repositório frontend
                             </a>
                             <a 
@@ -120,7 +119,7 @@ export const DevTask = () => {
                                 data-aos-easing="ease-in-out"
                                 data-aos-once="true"
                             >
-                                <img src={git} className="w-5"/>
+                                <img src={git} className="w-5" width={41} height={45}/>
                                 acessar seu repositório backend
                             </a>
                         </div>
@@ -130,8 +129,8 @@ export const DevTask = () => {
                     className="flex justify-center items-start fade3 tablet:mt-14"
                 >
                     <div className="flex justify-center items-center">
-                        <img src={devtask} alt="calculator gif" className="h-[440px] min-w-max rounded"/>
-                        <img src={cell} alt="phone muckup" className="h-[500px] min-w-max drop-shadow-[0_0_10px_rgba(250,250,250,0.1)] absolute"/>
+                        <img src={devtask} alt="calculator gif" className="h-[440px] min-w-max rounded" width={348} height={772}/>
+                        <img src="https://cdn.filestackcontent.com/resize=width:330/3fzDvFoQRequZcOOfYlw" alt="phone muckup" className="h-[500px] min-w-max drop-shadow-[0_0_10px_rgba(250,250,250,0.1)] absolute" width={1076} height={1628}/>
                     </div>
                 </div>
             </div>

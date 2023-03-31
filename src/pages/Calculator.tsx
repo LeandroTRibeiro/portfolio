@@ -1,7 +1,6 @@
 import { Footer } from "../components/Footer";
 import { Menu } from "../components/Menu";
 
-import cell from '../assets/images/phonemuckup.png';
 import calculator from '../assets/gifs/calculator.gif';
 
 import { GlobeAltIcon } from "@heroicons/react/24/outline";
@@ -73,15 +72,15 @@ export const Calculator = () => {
                                 target={"_blank"} 
                                 className="flex justify-start items-center gap-2 p-2 bg-stone-200 text-black rounded w-[350px] mobileGG:w-[250px] mobileG:w-full mobileGG:text-sm"
                             >
-                                <img src={git} className="w-5"/>
+                                <img src={git} className="w-5" width={41} height={45}/>
                                 acessar seu repositório
                             </a>
                         </div>
                     </div>
                 </div>
                 <div className="flex justify-center items-center fade3 tablet:mt-14">
-                    <img src={calculator} alt="calculator gif" className="h-[440px] min-w-max rounded"/>
-                    <img src={cell} alt="phone muckup" className="h-[500px] min-w-max drop-shadow-[0_0_10px_rgba(250,250,250,0.1)] absolute"/>
+                    <img src={calculator} alt="calculator gif" className="h-[440px] min-w-max rounded" width={348} height={772}/>
+                    <img src="https://cdn.filestackcontent.com/resize=width:330/3fzDvFoQRequZcOOfYlw" alt="phone muckup" className="h-[500px] min-w-max drop-shadow-[0_0_10px_rgba(250,250,250,0.1)] absolute" width={1076} height={1628}/>
                 </div>
             </div>
             <Footer />
