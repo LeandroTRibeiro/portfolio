@@ -129,8 +129,8 @@ export const DevChat = () => {
                     className="flex justify-center items-start fade3 tablet:mt-14"
                 >
                     <div className="flex justify-center items-center">
-                        <img src={devchat} alt="calculator gif" className="h-[440px] min-w-max rounded" width={348} height={772}/>
-                        <img src="https://cdn.filestackcontent.com/resize=width:330/3fzDvFoQRequZcOOfYlw" alt="phone muckup" className="h-[500px] min-w-max drop-shadow-[0_0_10px_rgba(250,250,250,0.1)] absolute" width={1076} height={1628}/>
+                        <img src={devchat} alt="calculator gif" className="h-[440px] min-w-max rounded"/>
+                        <img src="https://cdn.filestackcontent.com/resize=width:330/3fzDvFoQRequZcOOfYlw" alt="phone muckup" className="h-[500px] min-w-max drop-shadow-[0_0_10px_rgba(250,250,250,0.1)] absolute"/>
                     </div>
                 </div>
             </div>
