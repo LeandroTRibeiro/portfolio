@@ -1,5 +1,3 @@
-import { useEffect, useRef, useState } from 'react';
-
 import about from '../assets/images/aboutR.png';
 
 import { ArrowDownIcon } from '@heroicons/react/24/outline';
@@ -14,7 +12,7 @@ export const About = () => {
             data-aos-duration="500"
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
-            data-aos-once="true"
+            data-aos-once="false"
             data-aos-anchor-placement="botton-center"  
             id="about" 
             className="w-screen bg-black text-stone-200 flex laptop:flex-col-reverse justify-center p-20 tablet:p-10 tablet:pt-0 mobileG:p-5 mobileM:p-2"

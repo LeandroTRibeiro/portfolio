@@ -82,7 +82,7 @@ export const DevChat = () => {
                                     </ul>
                                 </div>
                             <a 
-                                href="https://leandrotribeiro.github.io/Calculadora/index.html" 
+                                href="https://devlivechat.netlify.app/" 
                                 target={"_blank"} 
                                 className="flex justify-start items-center gap-2 p-2 bg-stone-200 text-black rounded w-[350px] mobileGG:w-[250px] mobileG:w-full mobileGG:text-sm"
                                 data-aos="fade-right"
@@ -96,7 +96,7 @@ export const DevChat = () => {
                                 acessar o site
                             </a>
                             <a 
-                                href="https://github.com/LeandroTRibeiro/Calculadora" 
+                                href="https://github.com/LeandroTRibeiro/devChat-app" 
                                 target={"_blank"} 
                                 className="flex justify-start items-center gap-2 p-2 bg-stone-200 text-black rounded w-[350px] mobileGG:w-[250px] mobileG:w-full mobileGG:text-sm"
                                 data-aos="fade-right"
@@ -110,7 +110,7 @@ export const DevChat = () => {
                                 acessar seu repositório frontend
                             </a>
                             <a 
-                                href="https://github.com/LeandroTRibeiro/Calculadora" 
+                                href="https://github.com/LeandroTRibeiro/devChat-api" 
                                 target={"_blank"} 
                                 className="flex justify-start items-center gap-2 p-2 bg-stone-200 text-black rounded w-[350px] mobileGG:w-[250px] mobileG:w-full mobileGG:text-sm"
                                 data-aos="fade-right"

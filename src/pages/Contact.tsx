@@ -15,7 +15,7 @@ export const Contact = () => {
                 data-aos-duration="500"
                 data-aos-easing="ease-in-out"
                 data-aos-mirror="true"
-                data-aos-once="true"
+                data-aos-once="false"
                 data-aos-anchor-placement="botton-center"
             >
                 <div className="flex flex-col gap-5 mobileGG:gap-3">

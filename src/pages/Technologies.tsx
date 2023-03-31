@@ -1,4 +1,3 @@
-import { useRef, useEffect } from 'react';
 import tecnologies from '../assets/images/JS5.png';
 
 export const Technologies = () => {
@@ -13,7 +12,7 @@ export const Technologies = () => {
                 data-aos-duration="500"
                 data-aos-easing="ease-in-out"
                 data-aos-mirror="true"
-                data-aos-once="true"
+                data-aos-once="false"
             >
                 <img src={tecnologies} alt="logo tecnologiras" className="min-w-[450px] max-w-[500px] laptop:opacity-40"/>
             </div>
@@ -25,7 +24,7 @@ export const Technologies = () => {
                 data-aos-duration="500"
                 data-aos-easing="ease-in-out"
                 data-aos-mirror="true"
-                data-aos-once="true"
+                data-aos-once="false"
             >
                 <div>
                     <h2 className="font-bold font-montserrat text-4xl mobileGG:text-3xl mobileG:text-2xl bg-clip-text text-transparent w-fit bg-gradient-to-r from-orange-500 via-purple-500 to-pink-500">

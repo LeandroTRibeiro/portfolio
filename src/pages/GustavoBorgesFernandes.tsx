@@ -76,7 +76,7 @@ export const GustavoFernandesBorges = () => {
                                     </ul>
                                 </div>
                             <a
-                                href="https://leandrotribeiro.github.io/Calculadora/index.html"
+                                href="https://leandrotribeiro.github.io/Gustavo-Borges/src/index.html"
                                 target={"_blank"}
                                 className="flex justify-start items-center gap-2 p-2 bg-stone-200 text-black rounded w-[350px] mobileGG:w-[250px] mobileG:w-full mobileGG:text-sm"
                                 data-aos="fade-right"
@@ -90,7 +90,7 @@ export const GustavoFernandesBorges = () => {
                                 acessar o demo
                             </a>
                             <a
-                                href="https://github.com/LeandroTRibeiro/Calculadora"
+                                href="https://github.com/LeandroTRibeiro/Gustavo-Borges"
                                 target={"_blank"}
                                 className="flex justify-start items-center gap-2 p-2 bg-stone-200 text-black rounded w-[350px] mobileGG:w-[250px] mobileG:w-full mobileGG:text-sm"
                                 data-aos="fade-right"
