@@ -6,7 +6,7 @@ import { EnvelopeIcon, PhoneIcon } from "@heroicons/react/24/outline";
 
 export const Contact = () => {
     return (
-        <div id='contact' className="w-screen tecnologies text-stone-200 flex flex-col items-center gap-10  p-20">
+        <div id='contact' className="w-screen tecnologies text-stone-200 flex flex-col items-center gap-10 p-20">
             <div 
                 className="flex flex-col gap-10 mobileGG:gap-5"
                 data-aos="fade-up"
@@ -15,7 +15,7 @@ export const Contact = () => {
                 data-aos-duration="500"
                 data-aos-easing="ease-in-out"
                 data-aos-mirror="true"
-                data-aos-once="false"
+                data-aos-once="true"
                 data-aos-anchor-placement="botton-center"
             >
                 <div className="flex flex-col gap-5 mobileGG:gap-3">
@@ -23,7 +23,7 @@ export const Contact = () => {
                         <h1 className="font-montserrat text-4xl font-semibold mobileGG:text-3xl mobileG:text-2xl">Contato</h1>
                         <h2 className="font-bold font-montserrat text-3xl mobileGG:text-2xl mobileG:text-xl bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 w-fit">Fale comigo</h2>
                     </div>
-                    <p className="font-thin text-stone-200">Estou disponível para ofertas de trabalho, contratos freelancer e sujestões, entre em contato!</p>
+                    <p className="font-thin text-stone-200">Estou disponível para ofertas de trabalho, contratos freelancer e sugestões, entre em contato!</p>
                 </div>
                 <div className="flex gap-1">
                     <div className="flex flex-col gap-10 mobileGG:gap-3">

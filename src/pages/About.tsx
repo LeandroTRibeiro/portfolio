@@ -14,7 +14,7 @@ export const About = () => {
             data-aos-duration="500"
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
-            data-aos-once="false"
+            data-aos-once="true"
             data-aos-anchor-placement="botton-center"  
             id="about" 
             className="w-screen bg-black text-stone-200 flex laptop:flex-col-reverse justify-center p-20 tablet:p-10 tablet:pt-0 mobileG:p-5 mobileM:p-2"
@@ -28,7 +28,7 @@ export const About = () => {
                         Frontend Developer
                     </h2>
                 </div>
-                <p className="font-light text-stone-200 mobileGG:text-sm">
+                <p className="font-light text-stone-200 mobileGG:text-sm text-justify">
                     Como desenvolvedor front-end tenho conhecimentos de <em>HTML</em>, <em>CSS</em> e <em>JavaScript</em>. Me permitindo criar sites visualmente impressionantes e altamente funcionais. Entendo a importância do design <em>responsivo</em>. Possuo prática com a biblioteca <em>React</em>, e suas boas práticas que me permitem desenvolver UI's dinâmicas e interativas. Estou sempre aberto a feedback e disposto a trabalhar com outras pessoas para superar quaisquer desafios que possam surgir.
                 </p>
                 <a href="https://wa.me/5548996312210?text=Olá+consegui+seu+contato+atravéz+de+seu+site!" target="_blank" className=''>

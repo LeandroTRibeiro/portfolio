@@ -11,7 +11,7 @@ import { Technologies } from './Technologies';
 export const Home = () => {
 
     return (
-        <div className="overflow-x-hidden bg-black">
+        <div className="overflow-x-hidden scroll-smooth bg-black">
             <Menu/>
             <About/>
             <Technologies />

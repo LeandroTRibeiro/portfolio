@@ -11,6 +11,7 @@ module.exports = {
       },
       screens: {
         'laptop': {'max': '1024px'},
+        'tabletM': {'max': '868px'},
         'tablet': {'max': '768px'},
         'mobileGG': { 'max': '535px' },
         'mobileG': { 'max': '425px' },
