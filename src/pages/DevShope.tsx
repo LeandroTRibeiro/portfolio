@@ -116,12 +116,12 @@ export const DevShope = () => {
                 >
                     <div className="flex justify-center items-center">
                         
-                        <img src={devshope} alt="devshope gif" className="w-[350px] min-w-[350px] mobileGG:w-[290px] mobileG:w-[220px] mobileGG:min-w-[290px] mobileG:min-w-[220px] rounded" width={690} height={388}/>
+                        <img src={devshope} alt="devshope gif" className="w-[350px] min-w-[350px] mobileGG:w-[290px] mobileG:w-[220px] mobileGG:min-w-[290px] mobileG:min-w-[220px] rounded"/>
 
                         <picture className="w-[450px] mobileGG:w-[370px] mobileG:w-[300px] min-w-[450px] mobileGG:min-w-[370px] mobileG:min-w-[300px] drop-shadow-[0_0_10px_rgba(250,250,250,0.1)] absolute">
                             <source srcSet="https://cdn.filestackcontent.com/resize=width:300/zTliI3AZT8C8A1THQBII" media="(max-width: 425px)"/>
                             <source srcSet="https://cdn.filestackcontent.com/resize=width:370/zTliI3AZT8C8A1THQBII" media='(max-width: 535px)'/>
-                            <img src="https://cdn.filestackcontent.com/resize=width:450/zTliI3AZT8C8A1THQBII" alt="laptop muckup" width={1920} height={1188}/>
+                            <img src="https://cdn.filestackcontent.com/resize=width:450/zTliI3AZT8C8A1THQBII" alt="laptop muckup"/>
                         </picture>
                     </div>
                 </div>
