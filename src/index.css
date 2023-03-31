@@ -570,10 +570,6 @@
         transform: translate3d(0 , 50%,-200px);
     }
 
-    .enlarge {
-        transform: scale(1.4);
-    }
-
     #slider label{
         width: 100%;
     }

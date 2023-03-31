@@ -1,18 +1,18 @@
 import { useState } from 'react';
 
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 import { ArrowLeftCircleIcon } from '@heroicons/react/24/outline';
 
 export const Projects = () => {
+
+    const navigate = useNavigate();
 
     const [s1, setS1] = useState(false);
     const [s2, setS2] = useState(false);
     const [s3, setS3] = useState(true);
     const [s4, setS4] = useState(false);
     const [s5, setS5] = useState(false);
-
-    const [enlargeSlide, SetEnlargeSlide] = useState(false);
 
     const handlerS1 = () => {
         setS1(true);
@@ -21,12 +21,7 @@ export const Projects = () => {
         setS4(false);
         setS5(false);
         if(window.screen.width <= 768) {
-            if(enlargeSlide) {
-                SetEnlargeSlide(false);
-                return;
-            }
-            SetEnlargeSlide(true);
-            return;
+            navigate('/projects/devtask');
         }
     };
     const handlerS2 = () => {
@@ -36,12 +31,7 @@ export const Projects = () => {
         setS4(false);
         setS5(false);
         if(window.screen.width <= 768) {
-            if(enlargeSlide) {
-                SetEnlargeSlide(false);
-                return;
-            }
-            SetEnlargeSlide(true);
-            return;
+            navigate('/projects/devchat');
         }
     };
     const handlerS3 = () => {
@@ -51,12 +41,7 @@ export const Projects = () => {
         setS4(false);
         setS5(false);
         if(window.screen.width <= 768) {
-            if(enlargeSlide) {
-                SetEnlargeSlide(false);
-                return;
-            }
-            SetEnlargeSlide(true);
-            return;
+            navigate('/projects/gustavofernandesborges');
         }
 
     };
@@ -67,12 +52,7 @@ export const Projects = () => {
         setS4(true);
         setS5(false);
         if(window.screen.width <= 768) {
-            if(enlargeSlide) {
-                SetEnlargeSlide(false);
-                return;
-            }
-            SetEnlargeSlide(true);
-            return;
+            navigate('/projects/calculadora');
         }
     };
     const handlerS5 = () => {
@@ -82,12 +62,7 @@ export const Projects = () => {
         setS4(false);
         setS5(true);
         if(window.screen.width <= 768) {
-            if(enlargeSlide) {
-                SetEnlargeSlide(false);
-                return;
-            }
-            SetEnlargeSlide(true);
-            return;
+            navigate('/projects/devshope');
         }
     };
 
@@ -188,7 +163,7 @@ export const Projects = () => {
                             <div className='font-montserrat'>Conheça mais sobre este <Link to="/projects/devtask" className="px-5 py-2 rounded bg-[#570DF8] hover:bg-[#247cff] transitions hover:opacity-70 active:scale-90">Projeto!</Link></div>
                             <div><a href="https://dev-tasks.netlify.app/" target={'_blank'} className="px-5 py-2 rounded bg-[#570DF8] hover:bg-[#247cff] transitions hover:opacity-90 active:scale-90">Navegue</a> por este site!</div>
                         </div>
-                        <picture className={`${s3 || s4 ? 'imgDown' : 'imgUp'} ${enlargeSlide ? 'enlarge' : ''} transitions`}>
+                        <picture className={`${s3 || s4 ? 'imgDown' : 'imgUp'} transitions`}>
                             <source srcSet='https://cdn.filestackcontent.com/resize=width:208/kibbFSsKTJGXYk31vT7a' media='(max-width: 320px)'/>
                             <source srcSet='https://cdn.filestackcontent.com/resize=width:263/kibbFSsKTJGXYk31vT7a' media='(max-width: 375px)'/>
                             <source srcSet='https://cdn.filestackcontent.com/resize=width:318/kibbFSsKTJGXYk31vT7a' media='(max-width: 425px)'/>
@@ -202,7 +177,7 @@ export const Projects = () => {
                             <div className="font-montserrat">Conheça mais sobre este <Link to="/projects/devchat" className="px-5 py-2 rounded bg-[#570DF8] hover:bg-[#247cff] transitions hover:opacity-70 active:scale-90">Projeto!</Link></div>
                             <div><a href="https://devlivechat.netlify.app/" target={'_blank'} className="px-5 py-2 rounded bg-[#570DF8] hover:bg-[#247cff] transitions hover:opacity-90 active:scale-90">Navegue</a> por este site!</div>
                         </div>
-                        <picture className={`${s4 || s5 ? 'imgDown' : 'imgUp'} ${enlargeSlide ? 'enlarge' : ''} transitions`}>
+                        <picture className={`${s4 || s5 ? 'imgDown' : 'imgUp'} transitions`}>
                             <source srcSet='https://cdn.filestackcontent.com/resize=width:208/sTFInMfyS3OBxeHs8fNl' media='(max-width: 320px)'/>
                             <source srcSet='https://cdn.filestackcontent.com/resize=width:263/sTFInMfyS3OBxeHs8fNl' media='(max-width: 375px)'/>
                             <source srcSet='https://cdn.filestackcontent.com/resize=width:318/sTFInMfyS3OBxeHs8fNl' media='(max-width: 425px)'/>
@@ -216,7 +191,7 @@ export const Projects = () => {
                             <div className="font-montserrat">Conheça mais sobre este <Link to="/projects/gustavofernandesborges" className="px-5 py-2 rounded bg-[#570DF8] hover:bg-[#247cff] transitions hover:opacity-70 active:scale-90">Projeto!</Link></div>
                             <div><a href="https://leandrotribeiro.github.io/Gustavo-Borges/src/index.html" target={'_blank'} className="px-5 py-2 rounded bg-[#570DF8] hover:bg-[#247cff] transitions hover:opacity-90 active:scale-90">Navegue</a> por este site!</div>
                         </div>
-                        <picture className={`${s5 || s1 ? 'imgDown' : 'imgUp'} ${enlargeSlide ? 'enlarge' : ''} transitions`}>
+                        <picture className={`${s5 || s1 ? 'imgDown' : 'imgUp'} transitions`}>
                             <source srcSet='https://cdn.filestackcontent.com/resize=width:208/TwkI9y6dSy6A1taqkjOP' media='(max-width: 320px)'/>
                             <source srcSet='https://cdn.filestackcontent.com/resize=width:263/TwkI9y6dSy6A1taqkjOP' media='(max-width: 375px)'/>
                             <source srcSet='https://cdn.filestackcontent.com/resize=width:313/TwkI9y6dSy6A1taqkjOP' media='(max-width: 425px)'/>
@@ -230,7 +205,7 @@ export const Projects = () => {
                             <div className="font-montserrat">Conheça mais sobre este <Link to="/projects/calculadora" className="px-5 py-2 rounded bg-[#570DF8] hover:bg-[#247cff] transitions hover:opacity-70 active:scale-90">Projeto!</Link></div>
                             <div><a href="https://leandrotribeiro.github.io/Calculadora/index.html" target={'_blank'} className="px-5 py-2 rounded bg-[#570DF8] hover:bg-[#247cff] transitions hover:opacity-90 active:scale-90">Navegue</a> por este site!</div>
                         </div>
-                        <picture className={`${s1 || s2 ? 'imgDown' : 'imgUp'} ${enlargeSlide ? 'enlarge' : ''} transitions`}>
+                        <picture className={`${s1 || s2 ? 'imgDown' : 'imgUp'} transitions`}>
                             <source srcSet='https://cdn.filestackcontent.com/resize=width:208/xoFbIRR5RuasnfXPpWU7' media='(max-width: 320px)'/>
                             <source srcSet='https://cdn.filestackcontent.com/resize=width:263/xoFbIRR5RuasnfXPpWU7' media='(max-width: 375px)'/>
                             <source srcSet='https://cdn.filestackcontent.com/resize=width:313/xoFbIRR5RuasnfXPpWU7' media='(max-width: 425px)'/>
@@ -243,7 +218,7 @@ export const Projects = () => {
                         <div className={`transitions tablet:hidden ${s5 ? 'opacity-0 hover:opacity-100 absolute flex flex-col justify-center items-center gap-5 text-black backdrop-blur-sm bg-white/20 w-full h-full' : "hidden"}`}>
                             <div className="font-montserrat">Conheça mais sobre este <Link to="/projects/devshope" className="px-5 py-2 rounded bg-[#570DF8] hover:bg-[#247cff] transitions hover:opacity-70 active:scale-90">Projeto!</Link></div>
                         </div>
-                        <picture className={`${s2 || s3 ? 'imgDown' : 'imgUp'} ${enlargeSlide ? 'enlarge' : ''} transitions`}>
+                        <picture className={`${s2 || s3 ? 'imgDown' : 'imgUp'} transitions`}>
                             <source srcSet='https://cdn.filestackcontent.com/resize=width:208/y4JkBEmqTQ63EjLP4doo' media='(max-width: 320px)'/>
                             <source srcSet='https://cdn.filestackcontent.com/resize=width:263/y4JkBEmqTQ63EjLP4doo' media='(max-width: 375px)'/>
                             <source srcSet='https://cdn.filestackcontent.com/resize=width:313/y4JkBEmqTQ63EjLP4doo' media='(max-width: 425px)'/>
@@ -255,9 +230,7 @@ export const Projects = () => {
                 </section>
             </div>
             <div className='hidden z-50 tablet:flex flex-col gap-5 tablet:mt-[20vw] mobileGG:mt-[12vw] mobileG:mt-[5vw] mobileM:mt-0 justify-center items-center font-montserrat font-thin text-center'>
-                    <div>Conheça mais sobre este <Link to={`${s1 ? '/projects/devtask' : s2 ? '/projects/devchat' : s3 ? '/projects/gustavofernandesborges' : s4 ? '/projects/calculadora' : s5 ? '/projects/devshope' : ''}`} className='bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 w-fit font-bold hover:opacity-70'>projeto!</Link></div>
                     <div className={`${s5 ? 'hidden' : ''}`}>Navegue por este site <a href={`${s1 ? 'https://dev-tasks.netlify.app/' : s2 ? 'https://devlivechat.netlify.app/' : s3 ? 'https://leandrotribeiro.github.io/Gustavo-Borges/src/index.html' : s4 ? 'https://leandrotribeiro.github.io/Calculadora/index.html' : ''}`} target={'_blank'} className='bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 w-fit font-bold hover:opacity-70'>aqui!</a></div>
-
                 </div>
             <div className="flex items-end justify-center">
                 <p className="mt-[10vw] tablet:mt-0 font-montserrat text-center mobileGG:text-sm font-thin text-stone-200">Acesse aqui meu <a href="https://github.com/LeandroTRibeiro" target={'_blank'} className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 w-fit font-semibold hover:opacity-70">GitHub</a> e confira mais.</p>
