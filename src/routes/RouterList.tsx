@@ -13,10 +13,10 @@ export const RouterList = () => {
         {path: '*', element: <NotFoundPage />},
         {path: '/', element: <Apresentation />},
         {path: '/home', element: <Home />},
-        {path: '/projects/calculadora', element: <Calculator />},
         {path: '/projects/devtask', element: <DevTask />},
-        {path: '/projects/gustavofernandesborges', element: <GustavoFernandesBorges />},
         {path: '/projects/devchat', element: <DevChat />},
+        {path: '/projects/gustavofernandesborges', element: <GustavoFernandesBorges />},
+        {path: '/projects/calculadora', element: <Calculator />},
         {path: '/projects/devshope', element: <DevShope />}
     ]);
 };
