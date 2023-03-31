@@ -377,12 +377,11 @@
 /* about */
 
 .fade3 {
- animation: fade 1.1s ease-in-out;
+ animation: fade 2.5s ease-in-out;
 }
 
 @keyframes fade {
     0% { opacity: 0; }
-    80% { opacity: 0; }
     100% { opacity: 1; }
 }
 
@@ -532,7 +531,7 @@
     #s1:checked ~ #slide4:hover, #s2:checked ~ #slide5:hover,
     #s3:checked ~ #slide1:hover, #s4:checked ~ #slide2:hover,
     #s5:checked ~ #slide3:hover {
-        transform: none;
+        transform: translate3d(0,-50%,-200px);
     }
 
     #s1:checked ~ #slide5, #s2:checked ~ #slide1,
@@ -544,7 +543,7 @@
     #s1:checked ~ #slide5:hover, #s2:checked ~ #slide1:hover,
     #s3:checked ~ #slide2:hover, #s4:checked ~ #slide3:hover,
     #s5:checked ~ #slide4:hover {
-        transform: none;
+        transform: translate3d(0,-25%,-100px);
     }
 
     #s1:checked ~ #slide2, #s2:checked ~ #slide3,
@@ -556,7 +555,7 @@
     #s1:checked ~ #slide2:hover, #s2:checked ~ #slide3:hover,
     #s3:checked ~ #slide4:hover, #s4:checked ~ #slide5:hover,
     #s5:checked ~ #slide1:hover {
-        transform: none;
+        transform: translate3d(0, 25%,-100px);
     }
 
     #s1:checked ~ #slide3, #s2:checked ~ #slide4,
@@ -568,7 +567,11 @@
     #s1:checked ~ #slide3:hover, #s2:checked ~ #slide4:hover,
     #s3:checked ~ #slide5:hover, #s4:checked ~ #slide1:hover,
     #s5:checked ~ #slide2:hover {
-        transform: none;
+        transform: translate3d(0 , 50%,-200px);
+    }
+
+    .enlarge {
+        transform: scale(1.4);
     }
 
     #slider label{
